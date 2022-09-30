@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta character="utf-8" />
+	<title>Formulario </title>
+	</head>
+	<body>
+		<h2>Formulario para formar parte del proyecto</h2>
+		<p>Porfavor,si se desea participar en este proyecto,registre su institucion academica</p>
+		<p><strong>los campos son requeridos</strong></p>
+		<fieldset> <legend><h1><em>formulario</em></h1></legend>
+	
+		<form name="Registro" action="mailto:javierrg241001@gmail.com" 
+		enctype="text/plain" method="post" >
+			<p>Nombre <input type="text" name="Nombre instituto">
+			<p>Provincia <input type="text" name="Provincia">
+			</p>
+			</p>
+			<p>usuario <input type="text" name="usuario/a" required>
+			</p>
+			<p>Contraseña <input type="password" name="Contrasena" required>
+			</p>
+			<p>Cursos <select multiple name="Cursos" >
+							<optgroup>
+								<option>Ninguno</option>
+								<option>EGB</option>
+								<option>ESO</option>
+								<option>FP Especial</option>
+							</optgroup>
+							<optgroup>
+								<option>FP Básica</option>
+								<option>CFGM</option>
+								<option>CFGS</option>
+							</optgroup>
+							<optgroup>
+								<option>Diplomatura</option>
+								<option>Licenciatura</option>
+								<option>Grado</option>
+								<option>Master</option>
+							</optgroup>
+							</select>
+			</p>
+					
+			<p><input type="submit" value="Enviar">
+			<input type="reset" value="Limpiar controles"></p>
+		</fieldset>
+		</form>
+		
+	</body>
+
+		
+</html>
+
